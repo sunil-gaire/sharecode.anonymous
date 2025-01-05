@@ -1,0 +1,25 @@
+.div1{
+    display: inline-flex;
+    padding-inline: 10px;
+    padding: 10px;
+    background-color: aqua;
+}
+#ulist1{    
+    display: inline-flex;
+    list-style: none; 
+    margin-left: 390px;
+    
+}
+#pragraph{
+
+}
+#logo{
+    width: 80px;
+} 
+.menu{
+    padding-left: 37px;
+}
+.menu:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
