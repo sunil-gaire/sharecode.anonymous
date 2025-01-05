@@ -11,17 +11,17 @@ body{
     display: flex;
     position: fixed;
     padding-right: 100%;
-    
 }
 #ul1{
     list-style: none;
     display: inline-flex;
     font-weight: bold;
-    padding-left: 400px;
+    margin-right: 10%;
+    margin-left: 40%;
 }
 .li1{
     text-decoration: none;
-    padding-left: 50px;
+    margin-left: 50px;
     color: rgb(236, 102, 176);
 }
 #logo{
@@ -31,25 +31,22 @@ body{
 .li1:hover{
     margin-left: 26px;
     margin-right: 0px;
-    border : 2px solid #ff00aa;
-    background-color: #c04196;
+    border : 2px solid red;
     border-radius: 20px;
     padding: 1px 10px;
 }
 #home1{
-    padding-top: 10%;
+    padding-top: 200px;
 }
 
 #ss1{
     width: 40rem;
     height: 25rem;
     float: left;
-    padding-bottom: 50px;
 }
 .phome1{
     margin-left: 43rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    color: chocolate;
+    font-weight: 600;
+    font-size: 25px;
 }
