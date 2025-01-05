@@ -1,16 +1,14 @@
 .div1{
     display: inline-flex;
-    padding-inline: 10px;
-    padding: 10px;
     background-color: aqua;
+    text-decoration: none;
 }
 #ulist1{    
     display: inline-flex;
     list-style: none; 
-    margin-left: 390px;
-    
-}
-#pragraph{
+    margin-left: 1030px;
+    padding-inline: 10px;
+    font-size: larger;
 
 }
 #logo{
@@ -18,8 +16,16 @@
 } 
 .menu{
     padding-left: 37px;
+    text-decoration: none;
 }
 .menu:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(225, 3, 3);
     cursor: pointer;
+}
+#home{
+    display: inline-flex;
+}
+img{
+    margin-top: 1rem;
+    margin-right: 1rem;
 }
