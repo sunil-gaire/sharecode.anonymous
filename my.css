@@ -1,31 +1,24 @@
-.div1{
-    display: inline-flex;
+#demo{
     background-color: aqua;
-    text-decoration: none;
+    font-size: 20px;
 }
-#ulist1{    
+#ul1{
+    list-style: none;
+    position: absolute;
+    top: 0px;
     display: inline-flex;
-    list-style: none; 
-    margin-left: 1030px;
-    padding-inline: 10px;
-    font-size: larger;
-
+}
+.li1{
+    padding-left: 120px;
+    padding-right: 50px;
+    text-decoration: none;
 }
 #logo{
-    width: 80px;
-} 
-.menu{
-    padding-left: 37px;
-    text-decoration: none;
+    width: 100px;                                                                                      
+    margin-right: 300px;                    
 }
-.menu:hover{
-    color: rgb(225, 3, 3);
-    cursor: pointer;
+.li1:hover{
+    color: red;
+    cursor:pointer;
 }
-#home{
-    display: inline-flex;
-}
-img{
-    margin-top: 1rem;
-    margin-right: 1rem;
-}
+ 
