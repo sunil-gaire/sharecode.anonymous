@@ -1,4 +1,4 @@
-body{
+/* body{
     height: 1000px;
     background-color: rgb(172, 255, 255);
 }
@@ -6,9 +6,6 @@ body{
     background-color: aqua;
     font-size: 30px;
     font-family:Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
     position: fixed;
     padding-right: 100%;
 }
@@ -27,11 +24,7 @@ body{
 #logo{
     width: 100px; 
     margin-left: 10px;                                                                             
-}
-.li1:hover{
-   
-   
-   color:red;
+
    
 }
 #home1{
@@ -49,8 +42,4 @@ body{
     font-weight: 600;
     font-size: 25px;
 } 
-@media only screen and (max-width: 700px) {
-    body {
-      background-color: rgb(240, 168, 13);
-    }
-  }
+ */

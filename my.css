@@ -1,42 +1,76 @@
 body{
     height: 1000px;
-    background-color: rgb(172, 255, 255);
+    background-color: hsla(29, 90%, 70%, 0.808);
 }
+
+@media only screen and (max-width: 1000px) {
+    body {
+      background-color: rgb(255, 0, 0);
+    }
+}
+
 #demo{
-    background-color: aqua;
+    background-color: rgba(26, 250, 213, 0.3) ;
+    backdrop-filter: blur(6px);
     font-size: 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    justify-content: space-between;
-    align-items: center;
     display: flex;
     position: fixed;
     padding-right: 100%;
-    
 }
 #ul1{
     list-style: none;
     display: inline-flex;
     font-weight: bold;
-    padding-left: 400px;
+    padding-left: 350px;
 }
 .li1{
     text-decoration: none;
-    padding-left: 50px;
-    color: rgb(236, 102, 176);
+    margin-left: 50px;
+    color: rgb(170, 95, 136);
+    transition: 0.28s;
 }
 #logo{
     width: 100px; 
     margin-left: 10px;                                                                             
 }
 .li1:hover{
-    margin-left: 26px;
-    margin-right: 0px;
-    border : 2px solid #ff00aa;
-    background-color: #c04196;
-    border-radius: 20px;
-    padding: 1px 10px;
+   color:rgb(253, 0, 148);
 }
-#home1{
+
+#technoblade{
+    padding-top: 20%;
+    background-image: url(background.png);
+    height: 40%;
+    transition: 0.26s;
+}
+#homehead{
+    font-family: "Montserrat", sans-serif;
+    color: rgb(14, 14, 48);
+    text-align: center;
+    font-size: 23px;
+    font-weight: 900;
+}
+#homebg{
+    font-family: 'Raleway', sans-serif;
+    color: rgb(220, 220, 247);
+    margin-left: 26%;
+    margin-right: 25%;
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+}
+#about{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding: 7%;
+   
+}
+#pofabout{
+    text-align: center;
+}
+
+#pictures{
     padding-top: 10%;
 }
 
@@ -48,8 +82,35 @@ body{
 }
 .phome1{
     margin-left: 43rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    color: chocolate;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+    color: rgb(41, 141, 255);
+}
+
+#footer{
+    background-color:#333 ;
+    margin-top: 50px ;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-decoration: none;
+}
+#ulfoot{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    padding-left: 230px;
+    
+}
+.lifoot{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: rgb(80, 231, 93);
+    font-size: larger;
+    margin-left: 100px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.lifoot:hover{
+    color:rgb(6, 255, 27) ;
 }
