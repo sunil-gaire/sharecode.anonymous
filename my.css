@@ -10,29 +10,31 @@ body{
 }
 
 #demo{
-    background-color: rgba(26, 250, 213, 0.3) ;
+    background-color: rgba(26, 250, 213, 0.192) ;
     backdrop-filter: blur(6px);
     font-size: 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
+    display: inline-flex;
     position: fixed;
     padding-right: 100%;
+    text-align: center;
 }
 #ul1{
     list-style: none;
     display: inline-flex;
+    margin-left: 230px;
     font-weight: bold;
-    padding-left: 350px;
+    
 }
 .li1{
     text-decoration: none;
-    margin-left: 50px;
     color: rgb(170, 95, 136);
     transition: 0.28s;
+    margin-left: 80px;
 }
 #logo{
-    width: 100px; 
-    margin-left: 10px;                                                                             
+    width: 90px; 
+    margin-left: 30px;                                                                             
 }
 .li1:hover{
    color:rgb(253, 0, 148);
@@ -51,14 +53,19 @@ body{
     font-size: 23px;
     font-weight: 900;
 }
-#homebg{
+
+#spandiv{
+    margin-top: 2%;
+    align-items: center;
+   padding-left: 18%;
+   padding-right: 18%;
+}
+
+#element{
     font-family: 'Raleway', sans-serif;
-    color: rgb(220, 220, 247);
-    margin-left: 26%;
-    margin-right: 25%;
-    text-align: center;
+    color: rgb(207, 207, 247);
     font-size: larger;
-    font-weight: 500;
+    font-weight: 700;
 }
 #about{
     font-family: "Montserrat", sans-serif;
@@ -84,22 +91,22 @@ body{
     margin-left: 43rem;
     font-family: "Montserrat", sans-serif;
     font-weight: bolder;
-    font-size: 22px;
+    font-size: 23.5px;
     color: rgb(41, 141, 255);
 }
 
 #footer{
     background-color:#333 ;
     margin-top: 50px ;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 80px;
+    padding-bottom: 150px;
     text-decoration: none;
+    text-align: center;
 }
 #ulfoot{
-    text-align: center;
+    margin-right: 9%;
     list-style: none;
-    display: flex;
-    padding-left: 230px;
+    display: inline-flex;
     
 }
 .lifoot{
@@ -107,7 +114,7 @@ body{
     font-weight: 900;
     color: rgb(80, 231, 93);
     font-size: larger;
-    margin-left: 100px;
+    margin-left: 150px;
     text-decoration: none;
     transition: 0.3s;
 }
