@@ -64,7 +64,7 @@ body{
     font-family: "Montserrat", sans-serif;
     text-align: center;
     padding: 7%;
-   
+    transition: width 2s;
 }
 #pofabout{
     text-align: center;
@@ -113,4 +113,8 @@ body{
 }
 .lifoot:hover{
     color:rgb(6, 255, 27) ;
+}
+*{
+    padding: 0px;
+    margin: 0px;
 }
